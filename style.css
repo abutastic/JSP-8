@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(114, 159, 250);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: rgb(71, 123, 226);
+  width: 400px;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.textarea {
+  resize: none;
+  width: 100%;
+  height: 120px;
+  font-size: 18px;
+  font-family: cursive;
+  padding: 10px;
+  box-sizing: border-box;
+  border: solid 2px rgb(0, 0, 0);
+}
+
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.counter-container p {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.total-counter {
+  color: rgb(0, 0, 0);
+}
+
+.remaining-counter {
+  color: rgb(0, 0, 0);
+}

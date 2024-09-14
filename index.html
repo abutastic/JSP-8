@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-time Charater Counter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div style="max-width: 700px">
+      <h1
+        style="
+          text-align: center;
+          margin-bottom: 60px;
+          font-size: 40px;
+          color: rgb(75, 74, 73);
+        "
+      >
+        Type & count characters also characters remaining👀
+      </h1>
+    </div>
+    <div class="container">
+      <h2>Real-time Charater Counter</h2>
+      <textarea
+        id="textarea"
+        class="textarea"
+        placeholder="Please write your text here..."
+        maxlength="150"
+      ></textarea>
+      <div class="counter-container">
+        <p>
+          Total Charaters:
+          <span class="total-counter" id="total-counter"></span>
+        </p>
+        <p>
+          Remaining:
+          <span class="remaining-counter" id="remaining-counter"></span>
+        </p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
